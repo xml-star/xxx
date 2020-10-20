@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .a{
+            border: deeppink 2px solid;
+        }
+    </style>
+</head>
+<body>
+<div id = "app">
+<!--    <img class = "a" lt="" title="图片" src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=809892773,3183180719&fm=26&gp=0.jpg">-->
+<!--    <img v-bind:class="{a: isShow}" v-bind:src="src">-->
+    <img :class="{a: isShow}" :src="src">
+    <input type="button" value="点我添加样式" @click="addCss">
+    <input type="button" value="点我换图" @click="change">
+</div>
+<script src="js/vue.min.js"></script>
+<script>
+    new Vue({
+        el:"#app",
+        data:{
+            isShow:true,
+            src:"https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=809892773,3183180719&fm=26&gp=0.jpg"
+
+        },
+        methods:{
+            addCss(){
+                this.isShow=!this.isShow
+
+            },
+
+            change(){
+                this.src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1603207981660&di=2e8e4fab25de481f22358e1cbb951f85&imgtype=0&src=http%3A%2F%2Fgw.alicdn.com%2Fimgextra%2Fi2%2F538152455%2FTB2tEQ.aXXXXXcgXXXXXXXXXXXX-538152455.jpg"
+
+            },
+        }
+    })
+</script>
+
+</body>
+</html>

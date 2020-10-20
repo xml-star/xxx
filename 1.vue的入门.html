@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id = "app">
+    {{msg}}
+    {{name}}
+
+</div>
+<div>
+    {{msg}}
+</div>
+<script src="js/vue.min.js"></script>
+<script>
+    new Vue({
+        el:'#app',
+        data:{
+            msg:"海绵宝宝",
+            name:"派大星",
+        },
+    })
+</script>
+
+</body>
+</html>

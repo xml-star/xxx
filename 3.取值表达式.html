@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id = "app" class="aa">
+    {{msg}}
+    {{name.toUpperCase()}}
+
+</div>
+<script src="js/vue.min.js"></script>
+<script>
+    new Vue({
+        el:".aa",
+        data:{
+            msg:"我就大发慈悲的告诉你",
+            name:"xml"
+        },
+    })
+</script>
+</body>
+</html>
