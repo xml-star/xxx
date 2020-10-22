@@ -6,22 +6,26 @@
 </head>
 <body>
 <div id = "app">
+    <h3>年龄：{{age}}</h3>
+    <hr>
+    <input type="button" value="点我加加" v-on:click="add_age">
 
-<<<<<<< HEAD
 
 </div>
 <script src="js/vue.min.js"></script>
-<script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
-=======
-</div>
-<script src="js/vue.min.js"></script>
->>>>>>> 2b1f05c486336700071efb671705dbc603c0e8e9
 <script>
     new Vue({
         el:"#app",
         data:{
+            age:10,
 
         },
+        methods:{
+            add_age:function (){
+                // alert()
+                this.age++
+            },
+        }
     })
 </script>
 

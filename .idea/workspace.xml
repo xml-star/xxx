@@ -1,18 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="64713cdc-8c56-4b38-9372-6beb088b4636" name="Default Changelist" comment="" />
+=======
+    <list default="true" id="ead052c9-dcc8-4065-b9d2-82af7ecdc8a0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+>>>>>>> 2b1f05c486336700071efb671705dbc603c0e8e9
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
   <component name="ProjectId" id="1jE6YB1wV01U9GRizhPzAXQfWd3" />
+=======
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1j8VBJJh1nP9ltya497dlh7wfEd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+>>>>>>> 2b1f05c486336700071efb671705dbc603c0e8e9
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+<<<<<<< HEAD
+=======
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+>>>>>>> 2b1f05c486336700071efb671705dbc603c0e8e9
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -22,22 +47,49 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+<<<<<<< HEAD
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\2020.7bz\05 web进阶\code\day04" />
+=======
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\2020.7bz\05 web进阶\code\day02" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\2020.7bz\05 web进阶\code\day02" />
+      <recent name="D:\2020.7bz\05 web进阶\code\day02\js" />
+>>>>>>> 2b1f05c486336700071efb671705dbc603c0e8e9
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
       <changelist id="64713cdc-8c56-4b38-9372-6beb088b4636" name="Default Changelist" comment="" />
       <created>1603356949219</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603356949219</updated>
       <workItem from="1603356950320" duration="8691000" />
+=======
+      <changelist id="ead052c9-dcc8-4065-b9d2-82af7ecdc8a0" name="Default Changelist" comment="" />
+      <created>1603185574880</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603185574880</updated>
+      <workItem from="1603185578416" duration="15993000" />
+      <workItem from="1603203711753" duration="101000" />
+      <workItem from="1603203832185" duration="76000" />
+      <workItem from="1603203951009" duration="48000" />
+      <workItem from="1603269466779" duration="1718000" />
+>>>>>>> 2b1f05c486336700071efb671705dbc603c0e8e9
     </task>
     <servers />
   </component>
@@ -45,6 +97,7 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+<<<<<<< HEAD
     <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1603356963161">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -53,5 +106,23 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="608" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1603370130669" />
+=======
+    <state x="421" y="81" key="FileChooserDialogImpl" timestamp="1603201926001">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="81" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1603201926001" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1603201927175">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1603201927175" />
+    <state x="600" y="149" key="run.anything.popup" timestamp="1603201368910">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="600" y="149" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1603201368910" />
+    <state x="606" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1603192388186">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="606" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1603192388186" />
+>>>>>>> 2b1f05c486336700071efb671705dbc603c0e8e9
   </component>
 </project>

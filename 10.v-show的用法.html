@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id = "app">
+    <h3 v-show="isShow">{{msg}}</h3>
+    <hr>
+<!--    <h3 v-show="true">{{msg}}</h3>-->
+    <h3 v-show="false">{{msg}}</h3>
+    <input type="button" value="点我改变是否展示" @click="showMsg">
+
+</div>
+<script src="js/vue.min.js"></script>
+<script>
+    new Vue({
+        el:"#app",
+        data:{
+            msg:"窗外的雨滴一滴滴清晰",
+            isShow:true
+
+        },
+        methods:{
+            showMsg(){
+                this.isShow=!this.isShow
+
+            },
+        }
+    })
+</script>
+
+</body>
+</html>

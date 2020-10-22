@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id = "app">
+    <h3>数字：{{num}}</h3>
+    <hr>
+    <input type="button" value="点我闪闪" @click="bling('小黑',18)">
+    <input type="button" value="点我2闪闪" @click="bling2('小黑',38)">
+
+</div>
+<script src="js/vue.min.js"></script>
+<script>
+    new Vue({
+        el:"#app",
+        data:{
+            num:10,
+
+        },
+        methods:{
+            bling(m,n){
+                this.num=n
+            },
+            bling2(m,n){
+                this.num=n
+            }
+
+        },
+    })
+</script>
+
+</body>
+</html>
